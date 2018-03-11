@@ -1,0 +1,23 @@
+@media screen and (min-width: 850px){
+  main, header{
+    width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  header h1{
+    font-size: 40px;
+  }
+
+  .column{
+    width: 33.333%;
+  }
+
+  .logo{
+    text-align: left;
+  }
+
+  .site-title{
+    text-align: right;
+  }
+}
