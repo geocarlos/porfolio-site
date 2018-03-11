@@ -20,4 +20,8 @@
   .site-title{
     text-align: right;
   }
+
+  .featured{
+    width: 33.33%;
+  }
 }

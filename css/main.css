@@ -5,6 +5,10 @@ html, body {
   height: 100%;
 }
 
+body{
+  font-family: 'Lato', 'sans-serif';
+}
+
 h1 {
   margin: 0;
 }
@@ -26,7 +30,6 @@ header {
   margin: 5px 5px 0 5px;
   font-size: 20px;
   color: #777;
-  font-family: 'Lato', 'sans-serif';
   display: flex;
   flex-wrap: wrap;
 }
@@ -59,6 +62,8 @@ header h1, header h3 {
 main {
   background: #eee;
   min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -79,13 +84,17 @@ main {
 }
 
 .featured-work {
-  width: 100%;
   margin: 0;
+  padding: 10px;
 }
 
 .featured {
-  height: 300px;
-  width: 400px;
   float: left;
-  margin: auto;
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+}
+
+.featured img {
+  width: 90%;
 }
