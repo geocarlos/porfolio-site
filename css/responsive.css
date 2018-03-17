@@ -38,18 +38,16 @@
     width: calc((100% - 10px)/2);
     padding: 0;
   }
-
   picture:nth-child(3n) {
     margin-right: 0;
   }
 }
 
 @media screen and (min-width: 500px) {
-  .featured:hover{
+  .featured:hover {
     text-transform: uppercase;
   }
-
-  .featured img:hover{
+  .featured img:hover {
     box-shadow: 2px 2px #dadada;
     border-radius: 0.2em;
   }
