@@ -43,3 +43,14 @@
     margin-right: 0;
   }
 }
+
+@media screen and (min-width: 500px) {
+  .featured:hover{
+    text-transform: uppercase;
+  }
+
+  .featured img:hover{
+    box-shadow: 2px 2px #dadada;
+    border-radius: 0.2em;
+  }
+}
