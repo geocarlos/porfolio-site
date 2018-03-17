@@ -74,6 +74,7 @@ main {
 .column {
   width: 100%;
   float: right;
+  white-space: wrap;
 }
 
 .site-title {
@@ -96,7 +97,7 @@ main {
 .featured {
   float: left;
   width: 100%;
-  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
   padding: 10px;
 }
