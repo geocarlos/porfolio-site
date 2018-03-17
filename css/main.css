@@ -105,3 +105,12 @@ main {
 .featured img {
   width: 100%;
 }
+
+.featured:hover{
+  text-transform: uppercase;
+}
+
+.featured img:hover{
+  box-shadow: 5px 5px #dadada;
+  border-radius: 0.2em;
+}
