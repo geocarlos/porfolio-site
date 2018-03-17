@@ -24,11 +24,12 @@
     width: calc((100% - 10px)/3.05);
     padding: 0;
   }
-  picture:nth-child(4n) {
+  figure:nth-child(4n) {
     margin-right: 0;
   }
   .featured img {
     height: 145px;
+    margin: 0;
   }
 }
 
@@ -38,7 +39,7 @@
     width: calc((100% - 10px)/2);
     padding: 0;
   }
-  picture:nth-child(3n) {
+  figure:nth-child(3n) {
     margin-right: 0;
   }
 }
